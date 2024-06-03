@@ -17,12 +17,12 @@ class Config:
     )
 
     API_ID = int(os.environ.get('API_ID', 27538621))
-    API_HASH = os.environ.get('API_HASH', '24c338d23154f5ea8adb9fc684a4a06f')
+    API_HASH = os.environ.get('API_HASH', '24c338d23154f5ea8ahdb9fc684a4a06f')
     OWNER_ID = int(os.environ.get('OWNER_ID', 1780709155))
     MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://root:passwd@mongo')
 
     BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
-    DATABASE_ID = int(os.environ.get('DATABASE_ID', ''))
+    DATABASE_ID = int(os.environ.get('DATABASE_ID', -1002068464309))
 
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
 
